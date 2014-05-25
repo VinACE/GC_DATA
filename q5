@@ -1,0 +1,29 @@
+### The below tidy set is created from the file  body_acc_xtrain and x_test
+
+## I have taken two variables V1 and V2 from the dataset.
+
+dataset3 = read.table("body_acc_x_test.txt", sep="\t")
+
+dataset4 = read.table("body_acc_x_train.txt",sep="\t")
+
+merged.data.acc <- merge(dataset3, dataset4, by="V1", all.x=TRUE)
+### subsetting the combined data set.X
+
+X <- data.frame("V1" = sample(1:5))
+X <- data.frame("V1" = sample(1:5),"v2"=sample(1:5))
+
+> X <- data.frame("V1" = sample(1:10),"v2"=sample(1:10))
+> X
+   V1 v2
+1   2  4
+2   7  8
+3   5  9
+4   8  1
+5   4 10
+6   9  6
+7  10  3
+8   3  7
+9   6  2
+10  1  5
+> 
+

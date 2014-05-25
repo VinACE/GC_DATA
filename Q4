@@ -1,0 +1,14 @@
+## Activity names, from the feature.txt
+
+> str(d)
+'data.frame':	6 obs. of  1 variable:
+ $ V1: Factor w/ 6 levels "1 WALKING","2 WALKING_UPSTAIRS",..: 1 2 3 4 5 6
+> d
+                    V1
+1            1 WALKING
+2   2 WALKING_UPSTAIRS
+3 3 WALKING_DOWNSTAIRS
+4            4 SITTING
+5           5 STANDING
+6             6 LAYING
+> 

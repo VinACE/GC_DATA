@@ -1,0 +1,10 @@
+## To know more about the data str function can be used. it gives how many cols, rows and the type of the variable.
+
+##summary ,head,tail can be used to see a portion of the data which can also be limited by certain rows.
+
+
+
+> str(dataset3)
+'data.frame':	2947 obs. of  1 variable:
+ $ V1: Factor w/ 2947 levels " -1.0045260e-001  1.4908760e-002  1.0311290e-001  1.3654770e-001  1.1820350e-001  8.0073820e-002 -8.4503400e-003 -6.2815000e-00"| __truncated__,..: 1706 2911 2658 2510 1193 55 1165 1563 917 1026 ...
+> 
